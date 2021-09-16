@@ -1,8 +1,8 @@
-package br.com.exercicios.java;
+package listatres.java;
 
 import java.util.Scanner;
 
-public class ListaTres8 {
+public class ExercicioOito {
     public static void main(String[] args) {
         /*Escreva um programa que lê nome, peso e altura de 5 pessoas, calcula o IMC de cada um e ao final
         informa se alguém está fora do peso ideal (o IMC ideal é entre 18,5 e 25).*/
@@ -34,3 +34,4 @@ public class ListaTres8 {
         sc.close();
     }
 }
+

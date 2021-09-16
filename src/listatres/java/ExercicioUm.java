@@ -1,9 +1,9 @@
-package br.com.exercicios.java;
+package listatres.java;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ListaTres1 {
+public class ExercicioUm {
     public static void main(String[] args) {
         /*Escreva um programa que lê o nome de 5 frutas e armazena num carrinho de compras.
         Ao final da entrada dos 5 itens, exiba a lista completa.*/
@@ -21,17 +21,4 @@ public class ListaTres1 {
         sc.close();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 

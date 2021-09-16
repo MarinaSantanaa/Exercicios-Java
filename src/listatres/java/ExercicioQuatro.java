@@ -1,8 +1,8 @@
-package br.com.exercicios.java;
+package listatres.java;
 
 import java.util.Scanner;
 
-public class ListaTres4 {
+public class ExercicioQuatro {
     public static void main(String[] args) {
         /*Escreva um programa que lê 5 números e informa o maior, o menor e a média deles.*/
         Scanner sc = new Scanner(System.in);

@@ -1,8 +1,8 @@
-package br.com.exercicios.java;
+package listatres.java;
 
 import java.util.Scanner;
 
-public class ListaTres3 {
+public class ExercicioTres {
     public static void main(String[] args) {
         /*Escreva um programa que lê 5 números. Ao final, escreva primeiro todos os impares, depois todos os pares*/
         Scanner sc = new Scanner(System.in);
@@ -29,3 +29,4 @@ public class ListaTres3 {
         }
     }
 }
+

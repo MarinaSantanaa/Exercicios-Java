@@ -1,9 +1,9 @@
-package br.com.exercicios.java;
+package listatres.java;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ListaTres5 {
+public class ExercicioCinco {
     public static void main(String[] args) {
         /*Escreva um programa que lê o nome de 5 pessoas e armazena numa lista de convidados. Ao final, informe
         qual o nome mais longo presente na lista.*/

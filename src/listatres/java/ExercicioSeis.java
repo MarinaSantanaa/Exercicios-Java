@@ -1,8 +1,8 @@
-package br.com.exercicios.java;
+package listatres.java;
 
 import java.util.Scanner;
 
-public class ListaTres6 {
+public class ExercicioSeis {
     public static void main(String[] args) {
         /*Escreva um programa que lê uma palavra e escreve de volta com os caracteres ímpares em maiúsculo.*/
         Scanner sc = new Scanner(System.in);

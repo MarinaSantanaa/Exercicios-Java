@@ -1,8 +1,8 @@
-package br.com.exercicios.java;
+package listatres.java;
 
 import java.util.Scanner;
 
-public class ListaTres7 {
+public class ExercicioSete {
     public static void main(String[] args) {
         /*Escreva um programa que lê nome e idade de 5 pessoas e ao final informa quem é o mais novo,
         quem é o mais velho e qual a média de idade.*/
@@ -48,3 +48,4 @@ public class ListaTres7 {
         sc.close();
     }
 }
+

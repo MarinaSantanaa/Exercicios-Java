@@ -1,8 +1,8 @@
-package br.com.exercicios.java;
+package listatres.java;
 
 import java.util.Scanner;
 
-public class ListaTres2 {
+public class ExercicioDois {
     public static void main(String[] args) {
         /*Escreva um programa que lê uma palavra e a escreve de volta ao contrário*/
         Scanner sc = new Scanner(System.in);
