@@ -1,59 +1,39 @@
 package listaquatro.java;
 
-import java.util.Arrays;
-
     public class ExercicioSete {
-        private String[] nomes = {"Maria", "José", "Joaquim", "Carlos", "Roberta"};
-        private int[] idades = {20, 24, 50, 42, 28};
-        private int maisVelho = 0, maisNovo = 0;
-        private int soma;
+        private String nome;
+        private int idade;
 
-        public ExercicioSete (){
+        public ExercicioSete() {
 
         }
 
-        public ExercicioSete(String[] nomes, int[] idades) {
-            this.nomes = nomes;
-            this.idades = idades;
+        public ExercicioSete(String nome, int idade) {
+            this.nome = nome;
+            this.idade = idade;
         }
 
-        public String[] getNomes() {
-            return nomes;
+        public String getNome() {
+            return nome;
         }
 
-        public void setNomes(String[] nomes) {
-            this.nomes = nomes;
+        public void setNome(String nome) {
+            this.nome = nome;
         }
 
-        public int[] getIdades() {
-            return idades;
+        public int getIdade() {
+            return idade;
         }
 
-        public void setIdades(int[] idades) {
-            this.idades = idades;
+        public void setIdade(int idade) {
+            this.idade = idade;
         }
 
         @Override
         public String toString() {
-            return "ListaQuatro7{" +
-                    "nomes=" + Arrays.toString(nomes) +
-                    ", idades=" + Arrays.toString(idades) +
+            return "Pessoa{" +
+                    "nome='" + nome + '\'' +
+                    ", idade=" + idade +
                     '}';
         }
-
-        public void calcular() {
-            for (int i = 0; i < nomes.length; i++) {
-                if (idades[i] > idades[maisVelho]) {
-                    maisVelho = i;
-                }
-                if (idades[i] < idades[maisNovo]) {
-                    maisNovo = i;
-                }
-                soma += idades[i];
-            }
-            System.out.println("Mais velho: " + nomes[maisVelho]);
-            System.out.println("Mais novo: " + nomes[maisNovo]);
-            System.out.println("Média de Idade: " + soma / nomes.length);
-        }
     }
-
