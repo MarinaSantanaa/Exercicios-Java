@@ -2,7 +2,7 @@ package sistemabancario.java;
 
 import java.math.BigDecimal;
 
-public class Conta { // STATIC NAS CONSTANTES // CORRIGIR DE MULT PARA SOMA // CORRIGIR PORCENTAGEM
+public class Conta {
     final static private double PF_JUROS_INVESTIMENTO = 0.03;
     final static private double PJ_TAXA_SAQUE_TRANSFER = 0.005;
     final static private double PJ_JUROS_INVESTIMENTO = PF_JUROS_INVESTIMENTO + 0.02;
@@ -34,7 +34,7 @@ public class Conta { // STATIC NAS CONSTANTES // CORRIGIR DE MULT PARA SOMA // C
         return numConta;
     }
 
-    private void setNumConta(int numConta) { // METODO NÃO PODE SER ACESSIVEL
+    private void setNumConta(int numConta) {
         this.numConta = numConta;
     }
 
